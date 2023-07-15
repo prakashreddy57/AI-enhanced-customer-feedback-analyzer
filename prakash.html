@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prakash's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ddf0efaef9.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  </style>
+</head>
+<body>
+<div id="header">
+    <nav>
+        <img src="logo.jpg" class="logo">
+        <ul>
+            <li><a href="#header" class="homebut">Home</a></li>
+            <li><a href="#about" class="aboutbut">About</a></li>
+            <li><a href="#certificates" class="servicesbut">Certificates</a></li>
+            <li><a href="#projects" class="portfoliobut">Projects</a></li>
+            <li><a href="#contact" class="contactbut">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Prakash </span></h1>
+                    <p>Computer Science Student</p>
+                </div>
+                <div class="hi">
+                    <img src="C:\Users\beema\OneDrive\Desktop\webphoto1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                 <img src="C:\Users\beema\OneDrive\Desktop\webphoto2.jpg">
+                </div> 
+                <div class="col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <div class="about-text">
+                        <p>I'm a Computer Science under graduate seeking for an opportunity to pursue a highly rewarding career and
+                            healthy work environment where I can utilize my skills and knowledge efficiently for the organizational growth.
+                        </p>
+                    </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('skills')">skills</p>
+                    </div>
+                 
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Switch Code Contest</span><br>Awarded by Code Club at MLRIT for winning the contest</li>
+                            <li><span>Antragna Coding Contest</span><br>Awarded by Datech club at Malla Reddy University for winning the contest</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>10th Grade</span><br>Vaishnavi High School</li>
+                            <li><span>Intermediate</span><br>Srichaitanya Junior College</li>
+                            <li><span>B.Tech</span><br>MLR Institute of Technology</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="skills">
+                        <ul>
+                        
+                           <li><span>Java</span><br></li>
+                           <li><span>C language</span><br></li>
+                           <li><span>Python</span><br></li>
+                           <li><span>Data structures and algorithms</span><br></li>
+                           <li><span>HTML and CSS</span><br></li>
+                       </ul>
+                   </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------certificates----------------- -->
+    <div id="certificates">
+        <div class="container">
+            <h1 class="subtitle">My Certificates</h1>
+            <div class="certificates-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Data Structures & Algorithms</h2>
+                    <p>Certified by Smart Interviews for DSA course completion</p>
+                    <a href="https://smartinterviews.in/certificate/ec9c6b4d">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h2>Complete Interview Preparation</h2>
+                    <p>Certified by Geeks for Geeks for CIP course completion</p>
+                    <a href="https://media.geeksforgeeks.org/courses/certificates/b6ac2666fcae2abf1f160f2b9147a22b.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud Computing</h2>
+                    <p>Certified by NPTEL for cloud computing course completion</p>
+                    <a href="https://drive.google.com/file/d/14JswY1krEoqwlz6b4OnYljy-UAf3Zu7Y/view">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------portfolio--------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="projects-list">
+                <div class="work">
+                    <img src="C:\Users\beema\OneDrive\Desktop\project1.jpg">
+                    <div class="layer">
+                        <h3>Personal Website</h3>
+                        <p>Designed my personal website using html, css and javascript</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Users\beema\OneDrive\Desktop\project2.jpg">
+                    <div class="layer">
+                        <h3>Text Summarizer</h3>
+                        <p>Developed a Machine Learning model for summarizing the text</p>
+                        <a href="https://github.com/prakashreddy57/TextSummarizer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="subtitle">Contact Me</h1>
+            <div class="row">
+                <div class="leftcol">
+                    <p><i class="fa-solid fa-envelope"></i> kottamprakashreddy@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8309032688</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/prakashreddy12/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/prakashreddy_0007/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100058478366839&mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://github.com/prakashreddy57"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="C:\Users\beema\OneDrive\Desktop\prakashresume.pdf.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                 <div class="rightcol">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="1" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                tablink.classList.remove("active-link2");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+     <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzr6CNUd0Yedbnq8tqDKLMVwLe_fQJ7NQIdeKOwQt99UL6ZYujfQ5kDrV0rip8mzseAjA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
